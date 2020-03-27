@@ -19,8 +19,8 @@ const App = () => (<Router history={hist}>
       <Route path="/profile" component={ProfilePage} />
       <Route path="/login" component={LoginPage} />
       <Route path="/landing" component={LandingPage} />
-      <Route path="/home" component={HomePage} />
-      <Route path="/" component={UnderConstructionPage} />
+      <Route path="/under-construction" component={UnderConstructionPage} />
+      <Route path="/" component={HomePage} />
     </Switch>
   </Router>
 )
