@@ -17,7 +17,7 @@ const basicsStyle = {
     display: "block"
   },
   space70: {
-    height: "70px",
+    height: "30px",
     display: "block"
   },
   icons: {

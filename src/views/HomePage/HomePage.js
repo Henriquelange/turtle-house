@@ -17,9 +17,9 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/homePage.js";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.js";
+import CompanySection from "./Sections/CompanySection.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
+import ContactSection from "./Sections/ContactSection.js";
 
 const dashboardRoutes = [];
 
@@ -58,9 +58,9 @@ export default function HomePage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+          <CompanySection />
           <TeamSection />
-          <WorkSection />
+          <ContactSection />
         </div>
       </div>
       <Footer />
